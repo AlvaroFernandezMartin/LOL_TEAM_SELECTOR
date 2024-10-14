@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #6c6c6c;
+}
+
+.header_image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  margin-top: 0%;
+  position: absolute;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#Container {
+  grid-gap: 10px 10px;
+  grid-template-columns: repeat(6, 1fr);
+  width: 100%;
+  display: grid;
+}
+
+.card {
+  text-align: center;
+  background-color: #0ff;
+  background-image: linear-gradient(#585858, #fff);
+  border: 2px solid #4e4e4e;
+  border-radius: 5px;
+  font-family: DejaVu Sans Mono, monospace;
+}
+
+.champion_image {
+  width: 100px;
+  height: 100px;
+}
+/*# sourceMappingURL=index.2195abc2.css.map */

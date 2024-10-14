@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+}
+
+.header_image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.header_image2 {
+  z-index: 1;
+  width: 400px;
+  height: auto;
+  animation: 7s ease-in-out infinite float;
+  position: absolute;
+  left: 40%;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(1px);
+  }
+
+  50% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    transform: translateY(1px);
+  }
+}
+
+.flex-container {
+  width: 100%;
+  display: flex;
+}
+
+.sidebar {
+  width: 30%;
+}
+
+.sidebar_tex {
+  color: #fff;
+}
+
+#button_team1, #button_team2 {
+  border-radius: 100px;
+  width: 190px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+#button_team1 {
+  background-color: #6f23e9;
+}
+
+#button_team2 {
+  background-color: #c06c0b;
+}
+
+#Container {
+  grid-gap: 10px 10px;
+  grid-template-columns: repeat(10, 1fr);
+  width: 70%;
+  max-width: 1200px;
+  padding: 20px;
+  display: grid;
+}
+
+.card {
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #585858;
+  border: 2px solid #4e4e4e;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 125px;
+  padding: 5px;
+  font-family: DejaVu Sans Mono, monospace;
+  display: flex;
+  overflow: hidden;
+}
+
+.champion_image {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 60px;
+  display: block;
+}
+
+.selected_champions {
+  grid-gap: 10px 10px;
+  grid-template-columns: repeat(1, 1fr);
+  width: 70%;
+  padding: 20px;
+  display: grid;
+}
+/*# sourceMappingURL=index.ae99a11f.css.map */
