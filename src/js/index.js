@@ -1,5 +1,5 @@
-import {ChampionModel} from 'src/js/championModels.js';
-import { Card } from 'src/js/cardsFuntions.js';
+import {ChampionModel} from './championModels';
+import { Card } from '../js/cardsFuntions';
 
 
 const championModel = new ChampionModel();

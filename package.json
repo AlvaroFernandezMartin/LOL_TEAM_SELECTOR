@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "start": "parcel serve index.html",
+        "build": "parcel build index.html --dist-dir build",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    },
+    "homepage": "https://AlvaroFernandezMartin.github.io/LOL_TEAM_SELECTOR",
+    "devDependencies": {
+        "gh-pages": "^6.2.0",
+        "parcel": "^2.12.0"
+    }
+}
